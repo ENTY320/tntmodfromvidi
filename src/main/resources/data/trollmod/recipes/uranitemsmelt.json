@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "trollmod:uran"
+  },
+  "result": "trollmod:uranitem"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "34 ",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bone_meal"
+    },
+    "1": {
+      "item": "minecraft:bone_meal"
+    },
+    "3": {
+      "item": "minecraft:bone_meal"
+    },
+    "4": {
+      "item": "minecraft:gunpowder"
+    },
+    "8": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "trollmod:flashbang",
+    "count": 1
+  }
+}

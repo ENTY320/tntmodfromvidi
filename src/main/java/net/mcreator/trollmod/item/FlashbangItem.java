@@ -25,7 +25,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class FlashbangItem extends Item {
 	public FlashbangItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(100));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(20));
 	}
 
 	@Override

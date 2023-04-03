@@ -385,6 +385,58 @@
           "src/main/java/net/mcreator/trollmod/world/features/ores/UranFeature.java"
         ]
       }
+    },
+    {
+      "name": "Flashcraft",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/flashbang.json"
+        ]
+      }
+    },
+    {
+      "name": "Citycraft",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citycraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trollmod/recipes/citycraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Boomondcraft",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boomondcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trollmod/recipes/boomondcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Uranitemsmelt",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranitemsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trollmod/recipes/uranitemsmelt.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
