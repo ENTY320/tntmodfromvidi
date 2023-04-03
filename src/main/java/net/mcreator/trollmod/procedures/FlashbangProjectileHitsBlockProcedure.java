@@ -21,7 +21,7 @@ public class FlashbangProjectileHitsBlockProcedure {
 					"/particle minecraft:flash ~ ~ ~ 12 12 12 20 8888 force");
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", new TextComponent(""), _level.getServer(), null).withSuppressedOutput(),
-					"/effect add @p minecraft:blindness 20");
+					"/effect give @p minecraft:blindness 20");
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
 				_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("trollmod:flasbanged")), SoundSource.MASTER, 3, 200);

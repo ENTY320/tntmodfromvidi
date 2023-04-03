@@ -35,6 +35,9 @@
     "customBulletModelTexture": "",
     "onBulletHitsBlock": {
       "name": "FlashbangProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "FlashbangProjectileHitsBlock"
     }
   }
 }
