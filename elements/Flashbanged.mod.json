@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Flashbanged",
+    "texture": "white",
+    "description": "flashbang sound",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:flasbanged"
+    },
+    "lengthInTicks": 0,
+    "analogOutput": 0
+  }
+}

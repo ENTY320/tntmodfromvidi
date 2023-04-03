@@ -1,0 +1,441 @@
+{
+  "mod_elements": [
+    {
+      "name": "BoommondBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boommond_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/procedures/BoommondBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "BoommondRedstoneOn",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boommond_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/procedures/BoommondRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "Boommond",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boommond",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/trollmod/models/item/boommond.json",
+          "src/main/resources/assets/trollmod/models/block/boommond.json",
+          "src/main/resources/assets/trollmod/blockstates/boommond.json",
+          "src/main/java/net/mcreator/trollmod/block/BoommondBlock.java",
+          "src/main/java/net/mcreator/trollmod/world/features/ores/BoommondFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "NukeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/procedures/NukeOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "Nuke",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/block/NukeBlock.java",
+          "src/main/resources/assets/trollmod/models/item/nuke.json",
+          "src/main/resources/assets/trollmod/models/block/nuke.json",
+          "src/main/resources/assets/trollmod/blockstates/nuke.json"
+        ]
+      }
+    },
+    {
+      "name": "Flash",
+      "type": "particle",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/client/particle/FlashParticle.java",
+          "src/main/resources/assets/trollmod/particles/flash.json"
+        ]
+      }
+    },
+    {
+      "name": "FlashbangProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashbang_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/procedures/FlashbangProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "Flashbang",
+      "type": "rangeditem",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashbang",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/trollmod/models/item/flashbang.json",
+          "src/main/java/net/mcreator/trollmod/item/FlashbangItem.java",
+          "src/main/java/net/mcreator/trollmod/entity/FlashbangEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Flashbanged",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashbanged",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/item/FlashbangedItem.java",
+          "src/main/resources/assets/trollmod/models/item/flashbanged.json"
+        ]
+      }
+    },
+    {
+      "name": "FlasbangCommandExecuted",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flasbang_command_executed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/procedures/FlasbangCommandExecutedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "Flasbang",
+      "type": "command",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flasbang",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/command/FlasbangCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "CitybombRedstoneOn",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citybomb_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/procedures/CitybombRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "Citybomb",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citybomb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/trollmod/blockstates/citybomb.json",
+          "src/main/resources/assets/trollmod/models/block/citybomb.json",
+          "src/main/resources/assets/trollmod/models/item/citybomb.json",
+          "src/main/java/net/mcreator/trollmod/block/CitybombBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CityCommandExecuted",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "city_command_executed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/procedures/CityCommandExecutedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "City",
+      "type": "command",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "city",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/command/CityCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Nukerecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nukerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trollmod/recipes/crafting_table.json"
+        ]
+      }
+    },
+    {
+      "name": "Uranitem",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/item/UranitemItem.java",
+          "src/main/resources/assets/trollmod/models/item/uranitem.json"
+        ]
+      }
+    },
+    {
+      "name": "Uran",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uran",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/trollmod/models/block/uran.json",
+          "src/main/resources/assets/trollmod/blockstates/uran.json",
+          "src/main/resources/assets/trollmod/models/item/uran.json",
+          "src/main/java/net/mcreator/trollmod/block/UranBlock.java",
+          "src/main/java/net/mcreator/trollmod/world/features/ores/UranFeature.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "flasbanged",
+      "files": [
+        "flash_bang_sound_effect"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.trollmod.citybomb": "Citybomb",
+      "subtitles.flasbanged": "",
+      "item.trollmod.uranitem": "Uran",
+      "item.trollmod.flashbang": "Flashbang",
+      "block.trollmod.nuke": "Nuke",
+      "item.trollmod.flashbanged": "Flashbanged",
+      "block.trollmod.uran": "Uran",
+      "block.trollmod.boommond": "Boommond",
+      "item.trollmod.flashbanged.desc": "flashbang sound"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "commands",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "trollmod",
+    "modName": "trollmod",
+    "version": "1.0.0",
+    "author": "gergy, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.trollmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
