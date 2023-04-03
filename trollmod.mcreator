@@ -437,6 +437,39 @@
           "src/main/resources/data/trollmod/recipes/uranitemsmelt.json"
         ]
       }
+    },
+    {
+      "name": "Nuketrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuketrade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Nukedim",
+      "type": "dimension",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nukedim",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/world/teleporter/NukedimPortalShape.java",
+          "src/main/java/net/mcreator/trollmod/item/NukedimItem.java",
+          "src/main/java/net/mcreator/trollmod/world/dimension/NukedimDimension.java",
+          "src/main/resources/assets/trollmod/models/item/nukedim.json",
+          "src/main/java/net/mcreator/trollmod/world/teleporter/NukedimTeleporter.java",
+          "src/main/resources/assets/trollmod/blockstates/nukedim_portal.json",
+          "src/main/resources/assets/trollmod/models/block/nukedim_portal_ns.json",
+          "src/main/resources/data/trollmod/dimension/nukedim.json",
+          "src/main/resources/assets/trollmod/models/block/nukedim_portal_ew.json",
+          "src/main/resources/data/trollmod/dimension_type/nukedim.json",
+          "src/main/java/net/mcreator/trollmod/block/NukedimPortalBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -457,6 +490,7 @@
       "item.trollmod.uranitem": "Uran",
       "item.trollmod.flashbang": "Flashbang",
       "block.trollmod.nuke": "Nuke",
+      "item.trollmod.nukedim": "Nukedim Portal Igniter",
       "item.trollmod.flashbanged": "Flashbanged",
       "block.trollmod.uran": "Uran",
       "block.trollmod.boommond": "Boommond",

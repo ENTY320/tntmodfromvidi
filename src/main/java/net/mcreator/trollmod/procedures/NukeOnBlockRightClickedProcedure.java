@@ -52,7 +52,7 @@ public class NukeOnBlockRightClickedProcedure {
 					_level.getServer().getCommands().performCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", new TextComponent(""), _level.getServer(), null).withSuppressedOutput(),
 							"/particle explosion_emitter ~ ~ ~ 20 20 20 60 1000 force");
 				if (world instanceof Level _level && !_level.isClientSide())
-					_level.explode(null, x, y, z, 90, Explosion.BlockInteraction.DESTROY);
+					_level.explode(null, x, y, z, 150, Explosion.BlockInteraction.DESTROY);
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}
 		}.start(world, 100);

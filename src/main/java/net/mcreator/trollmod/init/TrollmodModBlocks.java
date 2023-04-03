@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.trollmod.block.UranBlock;
+import net.mcreator.trollmod.block.NukedimPortalBlock;
 import net.mcreator.trollmod.block.NukeBlock;
 import net.mcreator.trollmod.block.CitybombBlock;
 import net.mcreator.trollmod.block.BoommondBlock;
@@ -22,4 +23,5 @@ public class TrollmodModBlocks {
 	public static final RegistryObject<Block> NUKE = REGISTRY.register("nuke", () -> new NukeBlock());
 	public static final RegistryObject<Block> CITYBOMB = REGISTRY.register("citybomb", () -> new CitybombBlock());
 	public static final RegistryObject<Block> URAN = REGISTRY.register("uran", () -> new UranBlock());
+	public static final RegistryObject<Block> NUKEDIM_PORTAL = REGISTRY.register("nukedim_portal", () -> new NukedimPortalBlock());
 }

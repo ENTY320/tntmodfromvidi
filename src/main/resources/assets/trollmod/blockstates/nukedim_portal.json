@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "trollmod:block/nukedim_portal_ew"
+    },
+    "axis=x": {
+      "model": "trollmod:block/nukedim_portal_ns"
+    }
+  }
+}
