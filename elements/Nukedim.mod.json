@@ -35,12 +35,12 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Nukedim Portal Igniter",
+    "igniterName": "Nukedim Portal Igniter (nether portal with nuke)",
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "white",
-    "portalTexture": "letoltes",
+    "texture": "hozzavalok_hoe",
+    "portalTexture": "white",
     "enablePortal": true
   }
 }

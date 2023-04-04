@@ -26,10 +26,12 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.trollmod.init.TrollmodModTabs;
 import net.mcreator.trollmod.init.TrollmodModParticleTypes;
 import net.mcreator.trollmod.init.TrollmodModItems;
 import net.mcreator.trollmod.init.TrollmodModFeatures;
 import net.mcreator.trollmod.init.TrollmodModEntities;
+import net.mcreator.trollmod.init.TrollmodModEnchantments;
 import net.mcreator.trollmod.init.TrollmodModBlocks;
 
 import java.util.function.Supplier;
@@ -45,13 +47,15 @@ public class TrollmodMod {
 	private static int messageID = 0;
 
 	public TrollmodMod() {
-
+		TrollmodModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		TrollmodModBlocks.REGISTRY.register(bus);
 		TrollmodModItems.REGISTRY.register(bus);
 		TrollmodModEntities.REGISTRY.register(bus);
 
 		TrollmodModFeatures.REGISTRY.register(bus);
+
+		TrollmodModEnchantments.REGISTRY.register(bus);
 
 		TrollmodModParticleTypes.REGISTRY.register(bus);
 	}

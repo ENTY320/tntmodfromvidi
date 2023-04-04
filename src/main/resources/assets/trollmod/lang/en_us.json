@@ -1,12 +1,16 @@
 {
+  "advancements.nukeisgood.descr": "finali crafted your first nuke",
+  "item.trollmod.flashbang": "Flashbang",
+  "block.trollmod.nuke": "Nuke",
+  "item.trollmod.nukedim": "Nukedim Portal Igniter (nether portal with nuke)",
+  "block.trollmod.boommond": "Boommond",
+  "item.trollmod.flashbanged.desc": "flashbang sound",
+  "enchantment.trollmod.atomintesword": "Atomintesword",
+  "itemGroup.tabmtntib": "Mtntib",
   "block.trollmod.citybomb": "Citybomb",
   "subtitles.flasbanged": "",
   "item.trollmod.uranitem": "Uran",
-  "item.trollmod.flashbang": "Flashbang",
-  "block.trollmod.nuke": "Nuke",
-  "item.trollmod.nukedim": "Nukedim Portal Igniter",
+  "advancements.nukeisgood.title": "Nukeisgood",
   "item.trollmod.flashbanged": "Flashbanged",
-  "block.trollmod.uran": "Uran",
-  "block.trollmod.boommond": "Boommond",
-  "item.trollmod.flashbanged.desc": "flashbang sound"
+  "block.trollmod.uran": "Uran"
 }

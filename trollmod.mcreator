@@ -470,6 +470,94 @@
           "src/main/java/net/mcreator/trollmod/block/NukedimPortalBlock.java"
         ]
       }
+    },
+    {
+      "name": "Mtntib",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mtntib",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Atomintesword",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atomintesword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/enchantment/AtominteswordEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Nukeisgood",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nukeisgood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trollmod/advancements/nukeisgood.json"
+        ]
+      }
+    },
+    {
+      "name": "Enchant",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/procedures/EnchantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NukedimPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nukedim_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/trollmod/procedures/NukedimPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -485,16 +573,20 @@
   ],
   "language_map": {
     "en_us": {
+      "advancements.nukeisgood.descr": "finali crafted your first nuke",
+      "item.trollmod.flashbang": "Flashbang",
+      "block.trollmod.nuke": "Nuke",
+      "item.trollmod.nukedim": "Nukedim Portal Igniter (nether portal with nuke)",
+      "block.trollmod.boommond": "Boommond",
+      "item.trollmod.flashbanged.desc": "flashbang sound",
+      "enchantment.trollmod.atomintesword": "Atomintesword",
+      "itemGroup.tabmtntib": "Mtntib",
       "block.trollmod.citybomb": "Citybomb",
       "subtitles.flasbanged": "",
       "item.trollmod.uranitem": "Uran",
-      "item.trollmod.flashbang": "Flashbang",
-      "block.trollmod.nuke": "Nuke",
-      "item.trollmod.nukedim": "Nukedim Portal Igniter",
+      "advancements.nukeisgood.title": "Nukeisgood",
       "item.trollmod.flashbanged": "Flashbanged",
-      "block.trollmod.uran": "Uran",
-      "block.trollmod.boommond": "Boommond",
-      "item.trollmod.flashbanged.desc": "flashbang sound"
+      "block.trollmod.uran": "Uran"
     }
   },
   "foldersRoot": {

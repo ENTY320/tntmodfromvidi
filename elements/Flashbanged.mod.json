@@ -3,10 +3,10 @@
   "_type": "musicdisc",
   "definition": {
     "name": "Flashbanged",
-    "texture": "white",
+    "texture": "letoltes_2",
     "description": "flashbang sound",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Mtntib"
     },
     "specialInfo": [],
     "hasGlow": false,

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "trollmod:nuke"
+    },
+    "title": {
+      "translate": "advancements.nukeisgood.title"
+    },
+    "description": {
+      "translate": "advancements.nukeisgood.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nukeisgood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "trollmod:nuke"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 300,
+    "recipes": [
+      "minecraft:flashbang",
+      "trollmod:citycraft",
+      "trollmod:boomondcraft",
+      "trollmod:uranitemsmelt"
+    ]
+  }
+}

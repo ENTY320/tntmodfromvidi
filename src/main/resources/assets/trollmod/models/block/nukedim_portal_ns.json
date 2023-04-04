@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "trollmod:blocks/letoltes",
-    "portal": "trollmod:blocks/letoltes"
+    "particle": "trollmod:blocks/white",
+    "portal": "trollmod:blocks/white"
   },
   "elements": [
     {

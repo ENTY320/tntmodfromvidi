@@ -8,7 +8,7 @@
     "name": "Uran",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Mtntib"
     },
     "stackSize": 64,
     "enchantability": 0,
