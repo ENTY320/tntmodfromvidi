@@ -7,7 +7,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "beach",
+          "biome": "nether_wastes",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -176,7 +176,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "beach"
+                "nether_wastes"
               ]
             },
             "then_run": {
